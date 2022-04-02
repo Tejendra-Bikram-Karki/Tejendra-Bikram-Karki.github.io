@@ -8,9 +8,16 @@
     margin-top: 10px;
 }
 
+.article-section{
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+}
+
 .article-page{
-    margin-bottom: 0;
-    }
+    width: 100vw;
+    padding: 5%;
+}
 
 .article-tag {
     margin-left: 20px;
@@ -24,10 +31,13 @@
 .latest-book{
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    padding: 5%;
 }
 .book{
     margin-top: 40px;
-    width: 80vw;
+    width: 100%;
+    
 }
 .carousel-item {
     height: 600px;
@@ -126,41 +136,16 @@
     margin-top: 100px;
 }
 
+
+/* Books  */
+
+
+
+
+
+
+
 /* Footer  */
-
-/* .section-container-footer{
-    padding: 5%;
-    margin: auto;
-}
-
-.footer-content{
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    margin-top: 80px;
-    width: 80%;
-}
-
-.footer-right{
-margin-top: 40px;
-}
-.footer-content input{
-    width: 100%;
-    border-radius: 0;
-}
-
-.footer-left p{
-    width: 100px;
-    height: 58px;
-    margin-left: -1px;
-    background-color: #eb4a4a;
-    text-align: center;
-    padding: 14px;
-    font-size: 14px;
-    font-weight: 800;
-    color: #ffffff;
-  } */
-
  
   .footer-content{
     flex-direction: column;
@@ -199,7 +184,6 @@ margin-top: 40px;
     width: 144px;
     height: 50px;
     margin-left: -1px;
-    background-color: #eb4a4a;
     text-align: center;
     padding-top: 14px;
     font-size: 16px;

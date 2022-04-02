@@ -1,0 +1,132 @@
+/*book Section*/
+.header-text-book,
+.header-text-social {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.header-text-book h2,
+.header-text-social h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #eb4a4a;
+}
+
+.latest-book {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    gap: 2rem;
+    margin-top: 5%;
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    width: clamp(20rem, calc(20rem + 2vw), 22rem);
+    width: 414px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 6px;
+    background-color: #171f38;
+    padding: 0.6em;
+    padding-bottom: 1.6em;
+    padding-top: 0;
+}
+
+.book-section {
+    margin-bottom: 146px;
+}
+
+
+.book-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.book__image {
+    width: 390px;
+    height: 350px;
+    display: block;
+    object-fit: cover;
+    border-radius: 6px 6px 0 0;
+}
+.book-content {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.book-content h3 {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+.book-content p {
+    padding: 20px 0;
+}
+
+.book-content a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    color: #eb4a4a;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 14px 50px;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=====Review=====*/
+
+.img-area{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 1px solid #eb4a4a;
+    overflow: hidden;
+    margin: auto;
+}
+.img-area img{
+    width: 100%;
+    object-fit: cover;
+}
+.carousel-item{
+    height: 460px;
+}
+.carousel{
+    padding: 20px;
+}
+.slider-area{
+    width: 70vw;
+    margin: auto;
+    background: #171f38;
+    border-radius: 4px;
+}
+.name{
+    color: #eb4a4a;
+    font-weight: bold;
+    padding-bottom: 0;
+}
+h6{
+    color: rgba(255,255,255,0.8);
+}
+/*End of book Section*/

@@ -1,0 +1,50 @@
+.article-section{
+    width: 70vw;
+    margin: auto;
+    margin-top: 40px;
+}
+.additional-items{
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 2%; */
+}
+
+.article-tag{
+    margin-left: 40px;
+}
+
+.article-divider{
+    margin-bottom: 146px;
+}
+
+.card{
+    border: none !important;
+}
+.card-body{
+    background-color: #171f38;
+}
+.card-title{
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+p.card-text{
+    margin-right: 0px !important;
+}
+
+.date-tag{
+    color: rgba(255, 255, 255, 0.7);
+}
+.fa-calendar-o,
+.fa-tag{
+    padding-right: 10px;
+}
+.btn-rm{
+    border-radius: 0px !important;
+    background-color: #ffffff !important;
+    color: #eb4a4a !important;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    text-decoration: none;
+}

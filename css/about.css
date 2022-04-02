@@ -1,0 +1,99 @@
+.about-header {
+    min-height: 70vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.about-row{
+    border-top: none;
+}
+
+.about-section{
+    margin-top: 146px;
+}
+
+
+.about-section .row .col-md-6 .pray{
+    height: 80vh;  
+}
+
+.about-section .row .col-md-6 .pray img{
+    width: 80%;
+    height: 80vh;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+.about-section .row .about-content{
+    position: relative;
+}
+
+.about-section .row .about-content  .panel{
+    position: absolute;
+    top: 3vmin;
+    left: -12vmin;
+    background: #171F38;
+    border-radius: 4px;
+    text-align: left;
+    padding: 8vmin 3vmin 8vmin 6vmin;
+    z-index: 1;
+}
+.numbers{
+    justify-content: center;
+}
+
+.numbers .rect{
+    position: relative;
+    background: #171F38;
+    height: 10rem;
+    width: 12rem;
+    padding-top: 3.5vmin;
+    margin: 50px;
+    margin-bottom: 146px;
+    border-radius: 4px;
+}
+.rect-last {
+    margin-bottom: initial;
+}
+
+.awards-section{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 80px;
+}
+.award{
+    width: 60vw;
+    height: auto;
+    background-color: #171F38;
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.award div{
+    width: 56vw;
+    margin: 0 auto;
+    display: flex;
+}
+.award .award-content{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.award h3{
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 500;
+
+}
+
+.award-icon{
+    font-size: 30px;
+    color: #ffffff;
+    margin-right: 40px;
+}
